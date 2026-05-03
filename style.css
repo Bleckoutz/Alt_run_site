@@ -422,3 +422,47 @@ section {
   0%,100% {transform: scale(1);}
   50% {transform: scale(1.05);}
 }
+@media (max-width: 768px) {
+
+  header {
+    padding: 0 20px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  
+  .lectus-wrapper,
+  .altrun-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  .lectus-text p {
+    max-width: 100%;
+  }
+
+  .lectus-right img,
+  .altrun-right img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .graffiti {
+    font-size: clamp(40px, 10vw, 70px);
+  }
+
+  .modal-content {
+    width: 90%;
+  }
+
+}
