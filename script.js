@@ -146,7 +146,7 @@ const runBtn = document.getElementById("runBtn");
 const closeModal = document.getElementById("closeModal");
 const sendBtn = document.getElementById("sendBtn");
 
-runBtn.addEventListener("click", ()=>{
+/*runBtn.addEventListener("click", ()=>{
   modal.style.display = "flex";
 });
 
@@ -158,7 +158,7 @@ modal.addEventListener("click", e=>{
   if(e.target === modal){
     modal.style.display = "none";
   }
-});
+});*/
 
 sendBtn.addEventListener("click", ()=>{
   const input = modal.querySelector("input");
