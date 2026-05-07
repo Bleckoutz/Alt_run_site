@@ -2,147 +2,152 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>ALT.RUN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALT.RUN | LECTUS</title>
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<canvas id="particles"></canvas>
+
 <header>
-  <div class="logo">
-    <img src="img/logo.png" alt="Logo">
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent-custom fixed-top px-4">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="#">
+        <img src="img/logo.png" alt="Logo" width="40">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <nav>
-    <span class="indicator"></span>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-lg-4">
+          <li class="nav-item"><a class="nav-link nav-custom-link" href="#lectus">Lectus</a></li>
+          <li class="nav-item"><a class="nav-link nav-custom-link" href="#altrun">Alt.Run</a></li>
+          <li class="nav-item"><a class="nav-link nav-custom-link" href="#futuro">Vindo aí</a></li>
+        </ul>
+      </div>
 
-    <a href="#lectus" class="nav-link">Lectus</a>
-    <a href="#altrun" class="nav-link">Alt.Run</a>
-    <a href="#futuro" class="nav-link">Vindo aí</a>
-
-    <a href="https://www.instagram.com/lectus_dev" target="_blank" class="insta-icon">
-      <img src="img/instagram.png" alt="Instagram">
-    </a>
+      <a href="https://www.instagram.com/lectus_dev" target="_blank" class="insta-icon d-none d-lg-flex">
+        <img src="img/instagram.png" alt="Instagram" width="22">
+      </a>
+    </div>
   </nav>
 </header>
 
-<section id="lectus">
-
-  <div class="lectus-wrapper">
-
-    <div class="lectus-left">
-      <h1 class="graffiti lectus-title">LECTUS</h1>
-
-      <div class="lectus-text">
-        <h2>Criamos experiências em forma de jogos.</h2>
-        <p>
-          A LECTUS combina design, desenvolvimento e estratégia para construir jogos envolventes, com performance sólida e identidade marcante.
-        </p>
+<main class="container">
+  
+  <section id="lectus" class="py-5 min-vh-100 d-flex flex-column justify-content-center">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="graffiti lectus-title mb-4">LECTUS</h1>
+        <div class="lectus-text">
+          <h2 class="h3">Criamos experiências em forma de jogos.</h2>
+          <p class="lead text-secondary">
+            A LECTUS combina design, desenvolvimento e estratégia para construir jogos envolventes, com performance sólida e identidade marcante.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-5 text-center">
+        <div class="lectus-right">
+          <img src="img/imagem1.png" alt="Lectus Image" class="img-fluid rounded-4 shadow-custom">
+        </div>
       </div>
     </div>
 
-    <div class="lectus-right">
-      <img src="img/imagem1.png" alt="">
-    </div>
-
-  </div>
-
-  <div class="team">
-
-    <div class="member reveal">
-      <img src="img/rafael.jpeg">
-      <h3>Rafael</h3>
-      <span>Gerente & Dev Fullstack</span>
-      <p>Responsável pela visão e construção do projeto.</p>
-    </div>
-
-    <div class="member reveal">
-      <img src="img/hillary.jpeg">
-      <h3>Hillary</h3>
-      <span>Dev</span>
-      <p>Garante que tudo funcione com fluidez.</p>
-    </div>
-
-    <div class="member reveal">
-      <img src="img/isa.jpeg">
-      <h3>Isa</h3>
-      <span>Gerente Visual</span>
-      <p>Define toda identidade visual.</p>
-    </div>
-
-    <div class="member reveal">
-      <img src="img/caua.jpeg">
-      <h3>Cauã</h3>
-      <span>Artista</span>
-      <p>Dá vida ao universo do jogo.</p>
-    </div>
-
-    <div class="member reveal">
-      <img src="img/guilherme.jpeg">
-      <h3>Guilherme</h3>
-      <span>Existencial</span>
-      <p>Ele simplesmente existe.</p>
-    </div>
-
-  </div>
-
-</section>
-
-<section id="altrun">
-
-  <div class="altrun-wrapper">
-
-    <div class="altrun-left">
-      <h1 class="graffiti lectus-title">ALT.RUN</h1>
-
-      <div class="trailer-text">
-        <p>A Terra morreu.</p>
-        <p>Mas o erro sobreviveu.</p>
-        <p>Atlas-Genesis não é salvação.</p>
-        <p>É controle.</p>
-        <p class="highlight glitch">ALT.RUN</p>
+    <div class="row g-4 mt-5 team-grid">
+      <div class="col-6 col-md-4 col-lg">
+        <div class="member reveal">
+          <img src="img/rafael.jpeg" class="mb-3">
+          <h5>Rafael</h5>
+          <span class="d-block small text-accent">Gerente & Dev Fullstack</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg">
+        <div class="member reveal">
+          <img src="img/hillary.jpeg" class="mb-3">
+          <h5>Hillary</h5>
+          <span class="d-block small text-accent">Dev</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg">
+        <div class="member reveal">
+          <img src="img/isa.jpeg" class="mb-3">
+          <h5>Isa</h5>
+          <span class="d-block small text-accent">Gerente Visual</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg">
+        <div class="member reveal">
+          <img src="img/caua.jpeg" class="mb-3">
+          <h5>Cauã</h5>
+          <span class="d-block small text-accent">Artista</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg">
+        <div class="member reveal">
+          <img src="img/guilherme.jpeg" class="mb-3">
+          <h5>Guilherme</h5>
+          <span class="d-block small text-accent">Existencial</span>
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="altrun-right">
-      <img src="img/imagemjogo.jpg" alt="">
+  <hr class="text-secondary opacity-25">
+
+  <section id="altrun" class="py-5 min-vh-100 d-flex flex-column justify-content-center">
+    <div class="row align-items-center gy-5 flex-column-reverse flex-lg-row">
+      <div class="col-lg-5 text-center">
+        <img src="img/imagemjogo.jpg" alt="Alt Run" class="img-fluid rounded-4 shadow-custom">
+      </div>
+      <div class="col-lg-7 text-center">
+        <h1 class="graffiti lectus-title mb-4">ALT.RUN</h1>
+        <div class="trailer-text">
+          <p>A Terra morreu.</p>
+          <p>Mas o erro sobreviveu.</p>
+          <p>Atlas-Genesis não é salvação.</p>
+          <p>É controle.</p>
+          <p class="highlight glitch mt-4">ALT.RUN</p>
+        </div>
+        <div class="mt-5">
+          <button class="btn btn-run px-5 py-3" data-bs-toggle="modal" data-bs-target="#modalContato">INICIAR RUN</button>
+        </div>
+      </div>
     </div>
+  </section>
 
-  </div>
+  <section id="futuro" class="py-5 text-center min-vh-50 d-flex flex-column justify-content-center">
+    <h1 class="graffiti mb-3">Projetos Futuros</h1>
+    <p class="futuro-sub h4">EM BREVE MAIS INFORMAÇÕES</p>
+  </section>
 
-  <div class="start-run">
-    <button id="runBtn">INICIAR RUN</button>
-  </div>
+</main>
 
-</section>
-
-<section id="futuro">
-  <h1 class="graffiti">Projetos Futuros</h1>
-  <p class="futuro-sub">EM BREVE MAIS INFORMAÇÕES</p>
-</section>
-
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <h2>SISTEMA BLOQUEADO</h2>
-<p>ALT.RUN ainda não foi liberado.<br>Insira seu contato para acesso prioritário.</p>
-    <input type="text" placeholder="(11) 99999-9999">
-    <button id="sendBtn">Enviar</button>
-
-    <span id="closeModal">Fechar</span>
+<div class="modal fade" id="modalContato" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark border-accent p-4">
+      <div class="modal-header border-0">
+        <h2 class="modal-title h4 text-accent w-100 text-center">SISTEMA BLOQUEADO</h2>
+      </div>
+      <div class="modal-body text-center">
+        <p>ALT.RUN ainda não foi liberado.<br>Insira seu contato para acesso prioritário.</p>
+        <input type="text" class="form-control bg-black text-white border-secondary mb-3" placeholder="(11) 99999-9999">
+        <button class="btn btn-accent w-100 py-2" id="sendBtn">Enviar</button>
+      </div>
+      <div class="text-center mt-2">
+        <button type="button" class="btn btn-link btn-sm text-secondary text-decoration-none" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
   </div>
 </div>
 
-<canvas id="particles"></canvas>
-
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script>
-  (function(){
-    emailjs.init("SUA_PUBLIC_KEY");
-  })();
-</script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
