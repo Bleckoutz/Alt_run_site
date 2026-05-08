@@ -22,7 +22,7 @@ Acesso ao site
 
 O projeto está publicado no GitHub Pages:
 
-https://altrunstudio.com
+[https://altrunstudio.com](https://bleckoutz.github.io/Alt_run_site/)
 
 Estrutura
 
