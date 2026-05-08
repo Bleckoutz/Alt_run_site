@@ -1,35 +1,47 @@
-AltRun Studio
+# AltRun Studio 🚀
 
-Site institucional/portfólio desenvolvido para apresentação do projeto AltRun com foco em identidade visual moderna, responsiva e voltada para tecnologia.
+Site institucional desenvolvido para a apresentação do ecossistema AltRun, focado em uma identidade visual moderna, temática neon e alta performance.
 
-Sobre o projeto
+---
 
-O AltRun Studio é um site estático criado para apresentar o projeto de forma visual e organizada. O foco foi criar uma interface moderna, com efeitos visuais e boa experiência em qualquer dispositivo.
+### 📑 Sobre o Projeto
+O AltRun Studio funciona como o portfólio oficial do projeto. O objetivo principal foi criar uma interface imersiva que não sacrificasse a velocidade de carregamento, utilizando técnicas de desenvolvimento front-end moderno.
 
-Funcionalidades
-Layout responsivo (mobile e desktop)
-Animações e efeitos visuais
-Estilo moderno com tema neon
-Seções organizadas para apresentação
-Otimizado para GitHub Pages
-Tecnologias utilizadas
+### ⚡ Performance & Qualidade
+O projeto foi otimizado para oferecer a melhor experiência possível ao usuário, atingindo métricas de elite no **PageSpeed Insights**:
+- **Desempenho: 96**
+- **Acessibilidade: 91**
+- **Práticas Recomendadas: 100**
+- **SEO: 91**
 
-HTML
-CSS
-JavaScript
+---
 
-Acesso ao site
+### 🛠 Tecnologias Utilizadas
+- **HTML5**: Estrutura semântica.
+- **CSS3**: Estilização avançada, animações neon e layouts responsivos (Flexbox/Grid).
+- **JavaScript**: Lógica de interatividade e manipulação de DOM para efeitos dinâmicos.
 
-O projeto está publicado no GitHub Pages:
+---
 
-[https://altrunstudio.com](https://bleckoutz.github.io/Alt_run_site/)
+### ✨ Funcionalidades
+- **Totalmente Responsivo:** Adaptado para smartphones, tablets e desktops.
+- **Identidade Visual Imersiva:** Estilo focado em tecnologia com efeitos visuais e transições suaves.
+- **SEO Otimizado:** Estrutura preparada para mecanismos de busca.
+- **Hospedagem:** Deploy automatizado via GitHub Pages.
 
-Estrutura
+---
 
-Home → apresentação principal
-Sobre → informações do projeto
-Projetos → destaques
-Contato → informações de contato
+### 🗺️ Estrutura do Site
+- **Home:** Apresentação principal e proposta do projeto.
+- **Sobre:** Detalhes e história do AltRun.
+- **Projetos:** Showcase dos principais destaques.
+- **Contato:** Canais oficiais de comunicação.
 
-Autor:
-Rafael Eduardo
+---
+
+### 🔗 Acesso ao Site
+O projeto está publicado e disponível para visualização em:  
+👉 **[altrunstudio.com](https://bleckoutz.github.io/Alt_run_site/)**
+
+---
+**Autor:** Rafael Eduardo (Bleckoutz)
