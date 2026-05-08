@@ -11,7 +11,7 @@ Site institucional desenvolvido para a apresentação do ecossistema AltRun, foc
 O projeto foi otimizado para oferecer a melhor experiência possível ao usuário, atingindo métricas de elite no **PageSpeed Insights**. Este resultado comprova o compromisso com a performance, mesmo em um site com forte apelo visual.
 
 <!-- Resultados do PageSpeed -->
-!WhatsApp Image 2026-05-08 at 19.32.16.jpeg
+![Resultados do PageSpeed](img/WhatsApp Image 2026-05-08 at 19.32.16.jpeg)
 
 * **Desempenho:** 96
 * **Acessibilidade:** 91
