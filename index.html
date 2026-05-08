@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ALT.RUN | LECTUS</title>
+  <title>LECTUS STUDIO | ALT.RUN</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,21 +17,21 @@
 <canvas id="particles"></canvas>
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent-custom fixed-top px-4">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-4">
     <div class="container-fluid">
       <a class="navbar-brand logo" href="#">
         <img src="img/logo.png" alt="Logo" width="40">
       </a>
       
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav gap-lg-4">
-          <li class="nav-item"><a class="nav-link nav-custom-link" href="#lectus">Lectus</a></li>
+          <li class="nav-item"><a class="nav-link nav-custom-link" href="#lectus">Quem Somos</a></li>
+          <li class="nav-item"><a class="nav-link nav-custom-link" href="#objetivos">Objetivos</a></li>
           <li class="nav-item"><a class="nav-link nav-custom-link" href="#altrun">Alt.Run</a></li>
-          <li class="nav-item"><a class="nav-link nav-custom-link" href="#futuro">Vindo aí</a></li>
         </ul>
       </div>
 
@@ -43,105 +45,161 @@
 <main class="container">
   
   <section id="lectus" class="py-5 min-vh-100 d-flex flex-column justify-content-center">
-    <div class="row align-items-center gy-5">
-      <div class="col-lg-7 text-center text-lg-start">
-        <h1 class="graffiti lectus-title mb-4">LECTUS</h1>
-        <div class="lectus-text">
-          <h2 class="h3">Criamos experiências em forma de jogos.</h2>
-          <p class="lead text-secondary">
-            A LECTUS combina design, desenvolvimento e estratégia para construir jogos envolventes, com performance sólida e identidade marcante.
+    <div class="text-center mb-5 reveal">
+      <h1 class="graffiti text-accent display-2">Quem Somos</h1>
+    </div>
+
+    <div class="row g-4 mb-5">
+      <div class="col-lg-7">
+        <div class="h-100 p-4 p-md-5 rounded-5 bg-glass border-accent shadow-glow reveal">
+          <h2 class="h3 text-accent mb-4"><i class="bi bi-rocket-takeoff me-2"></i> Nossa Missão</h2>
+          <p class="lead">
+            Na Lectus, acreditamos que jogos podem ir muito além do entretenimento. Nosso objetivo é criar experiências marcantes, com identidade própria, gameplay envolvente e histórias que conectam pessoas. Buscamos transformar ideias em universos únicos, unindo criatividade, tecnologia e paixão por desenvolvimento.
           </p>
         </div>
       </div>
-      <div class="col-lg-5 text-center">
-        <div class="lectus-right">
-          <img src="img/imagem1.png" alt="Lectus Image" class="img-fluid rounded-4 shadow-custom">
+
+      <div class="col-lg-5">
+        <div class="d-flex flex-column gap-3 h-100">
+          <div class="value-card p-3 rounded-4 bg-glass border-accent-left reveal">
+            <h3 class="h5 text-accent">Excelência</h3>
+            <p class="small m-0 text-secondary opacity-75">Cada projeto é desenvolvido com atenção aos detalhes, buscando sempre entregar qualidade visual, performance e inovação.</p>
+          </div>
+          <div class="value-card p-3 rounded-4 bg-glass border-accent-left reveal">
+            <h3 class="h5 text-accent">Inovação</h3>
+            <p class="small m-0 text-secondary opacity-75">Misturamos estética moderna, mecânicas criativas e experiências imersivas para criar algo diferente do comum.</p>
+          </div>
+          <div class="value-card p-3 rounded-4 bg-glass border-accent-left reveal">
+            <h3 class="h5 text-accent">Impacto</h3>
+            <p class="small m-0 text-secondary opacity-75">Construímos jogos que deixam marca, inspiram jogadores e representam o potencial dos estúdios independentes brasileiros.</p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="row g-4 mt-5 team-grid">
-      <div class="col-6 col-md-4 col-lg">
+    <div class="row g-4 justify-content-center pt-4">
+      <div class="col-6 col-md-4 col-lg text-center">
         <div class="member reveal">
-          <img src="img/rafael.jpeg" class="mb-3">
+          <img src="img/rafael.jpeg" alt="Rafael" class="img-member">
           <h5>Rafael</h5>
-          <span class="d-block small text-accent">Gerente & Dev Fullstack</span>
+          <span class="small text-accent">Gerente & Dev</span>
         </div>
       </div>
-      <div class="col-6 col-md-4 col-lg">
+      <div class="col-6 col-md-4 col-lg text-center">
         <div class="member reveal">
-          <img src="img/hillary.jpeg" class="mb-3">
+          <img src="img/hillary.jpeg" alt="Hillary" class="img-member">
           <h5>Hillary</h5>
-          <span class="d-block small text-accent">Dev</span>
+          <span class="small text-accent">Dev</span>
         </div>
       </div>
-      <div class="col-6 col-md-4 col-lg">
+      <div class="col-6 col-md-4 col-lg text-center">
         <div class="member reveal">
-          <img src="img/isa.jpeg" class="mb-3">
+          <img src="img/isa.jpeg" alt="Isa" class="img-member">
           <h5>Isa</h5>
-          <span class="d-block small text-accent">Gerente Visual</span>
+          <span class="small text-accent">Design Visual</span>
         </div>
       </div>
-      <div class="col-6 col-md-4 col-lg">
+      <div class="col-6 col-md-4 col-lg text-center">
         <div class="member reveal">
-          <img src="img/caua.jpeg" class="mb-3">
+          <img src="img/caua.jpeg" alt="Cauã" class="img-member">
           <h5>Cauã</h5>
-          <span class="d-block small text-accent">Artista</span>
+          <span class="small text-accent">Artista</span>
         </div>
       </div>
-      <div class="col-6 col-md-4 col-lg">
+      <div class="col-6 col-md-4 col-lg text-center">
         <div class="member reveal">
-          <img src="img/guilherme.jpeg" class="mb-3">
+          <img src="img/guilherme.jpeg" alt="Guilherme" class="img-member">
           <h5>Guilherme</h5>
-          <span class="d-block small text-accent">Existencial</span>
+          <span class="small text-accent">Existencial</span>
         </div>
       </div>
     </div>
   </section>
 
-  <hr class="text-secondary opacity-25">
-
-  <section id="altrun" class="py-5 min-vh-100 d-flex flex-column justify-content-center">
-    <div class="row align-items-center gy-5 flex-column-reverse flex-lg-row">
-      <div class="col-lg-5 text-center">
-        <img src="img/imagemjogo.jpg" alt="Alt Run" class="img-fluid rounded-4 shadow-custom">
-      </div>
-      <div class="col-lg-7 text-center">
-        <h1 class="graffiti lectus-title mb-4">ALT.RUN</h1>
-        <div class="trailer-text">
-          <p>A Terra morreu.</p>
-          <p>Mas o erro sobreviveu.</p>
-          <p>Atlas-Genesis não é salvação.</p>
-          <p>É controle.</p>
-          <p class="highlight glitch mt-4">ALT.RUN</p>
+  <section id="objetivos" class="py-5">
+    <div class="text-center mb-5 reveal">
+      <h2 class="graffiti h1">Objetivos da Lectus</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="objective-card p-4 rounded-5 bg-glass h-100 reveal text-center">
+          <div class="obj-num mb-3">01</div>
+          <h3 class="h5 text-accent">Desenvolvimento Criativo</h3>
+          <p class="small text-secondary">Focados em originalidade, atmosfera e experiências memoráveis.</p>
         </div>
-        <div class="mt-5">
-          <button class="btn btn-run px-5 py-3" data-bs-toggle="modal" data-bs-target="#modalContato">INICIAR RUN</button>
+      </div>
+      <div class="col-md-4">
+        <div class="objective-card p-4 rounded-5 bg-glass h-100 reveal text-center">
+          <div class="obj-num mb-3">02</div>
+          <h3 class="h5 text-accent">Evolução Constante</h3>
+          <p class="small text-secondary">Aprimorar programação, design e arte a cada novo projeto.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="objective-card p-4 rounded-5 bg-glass h-100 reveal text-center">
+          <div class="obj-num mb-3">03</div>
+          <h3 class="h5 text-accent">Comunidade e Conexão</h3>
+          <p class="small text-secondary">Ouvindo jogadores e evoluindo junto com eles.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="futuro" class="py-5 text-center min-vh-50 d-flex flex-column justify-content-center">
-    <h1 class="graffiti mb-3">Projetos Futuros</h1>
-    <p class="futuro-sub h4">EM BREVE MAIS INFORMAÇÕES</p>
+  <section id="altrun" class="py-5 min-vh-100 d-flex align-items-center">
+    <div class="row g-5 align-items-center bg-glass-dark rounded-5 p-4 p-md-5 border-accent reveal shadow-glow mx-0">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <h1 class="graffiti text-accent mb-4">ALT.RUN</h1>
+        <p class="mb-4">
+          ALT.RUN é um jogo com estética neon e atmosfera futurista, focado em velocidade, ação e desafio. O jogador atravessa cenários digitais intensos enquanto enfrenta obstáculos e inimigos.
+        </p>
+        <ul class="list-unstyled mb-5">
+          <li class="mb-2 d-flex align-items-center"><i class="bi bi-check2-circle text-accent me-3"></i> Visual futurista cyberpunk</li>
+          <li class="mb-2 d-flex align-items-center"><i class="bi bi-check2-circle text-accent me-3"></i> Gameplay dinâmica e acelerada</li>
+          <li class="mb-2 d-flex align-items-center"><i class="bi bi-check2-circle text-accent me-3"></i> Sistema de combate fluido</li>
+          <li class="mb-2 d-flex align-items-center"><i class="bi bi-check2-circle text-accent me-3"></i> Ambientação imersiva</li>
+        </ul>
+        <button class="btn btn-run px-5 py-3 w-100 w-md-auto" data-bs-toggle="modal" data-bs-target="#modalContato">
+          Jogar Agora <i class="bi bi-arrow-right ms-2"></i>
+        </button>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2">
+        <div class="rounded-4 overflow-hidden border border-accent shadow-glow">
+          <img src="img/imagemjogo.jpg" class="img-fluid w-100" alt="Gameplay">
+        </div>
+      </div>
+    </div>
   </section>
 
 </main>
 
+<footer class="bg-black py-5 mt-5 border-top border-secondary border-opacity-25">
+  <div class="container text-center text-md-start">
+    <div class="row gy-4 align-items-center">
+      <div class="col-md-4">
+        <h3 class="h5 text-accent mb-2">Lectus Studio</h3>
+        <p class="small text-secondary m-0">Criando experiências que vão além do jogo.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="img/logo.png" alt="Logo" width="40" class="opacity-50">
+      </div>
+      <div class="col-md-4 text-center text-md-end">
+        <h4 class="h6 text-accent mb-2">Contato</h4>
+        <p class="small text-secondary m-0">lectusk7@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
 <div class="modal fade" id="modalContato" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content bg-dark border-accent p-4">
-      <div class="modal-header border-0">
-        <h2 class="modal-title h4 text-accent w-100 text-center">SISTEMA BLOQUEADO</h2>
+    <div class="modal-content bg-glass border-accent p-4">
+      <div class="modal-header border-0 justify-content-center">
+        <h2 class="modal-title h4 text-accent graffiti">SISTEMA BLOQUEADO</h2>
       </div>
       <div class="modal-body text-center">
-        <p>ALT.RUN ainda não foi liberado.<br>Insira seu contato para acesso prioritário.</p>
-        <input type="text" class="form-control bg-black text-white border-secondary mb-3" placeholder="(11) 99999-9999">
-        <button class="btn btn-accent w-100 py-2" id="sendBtn">Enviar</button>
-      </div>
-      <div class="text-center mt-2">
-        <button type="button" class="btn btn-link btn-sm text-secondary text-decoration-none" data-bs-dismiss="modal">Fechar</button>
+        <p>Acesso antecipado em breve.<br>Deixe seu contato.</p>
+        <input type="text" class="form-control bg-dark text-white border-accent mb-3" placeholder="(11) 99999-9999">
+        <button class="btn btn-run w-100" id="sendBtn">Enviar</button>
       </div>
     </div>
   </div>
