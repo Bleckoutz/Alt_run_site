@@ -1,6 +1,6 @@
 # AltRun Studio 🚀
 
-Site institucional desenvolvido para a apresentação do ecossistema AltRun, focado em uma identidade visual moderna, temática neon e alta performance.
+Experiência web desenvolvida para representar o universo ALT.RUN, combinando identidade visual neon, animações interativas e foco extremo em performance.
 
 <!-- Preview do Site -->
 ![Preview do AltRun Studio](img/preview-site.png)
