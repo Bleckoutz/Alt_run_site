@@ -65,3 +65,75 @@ document.querySelectorAll(".member").forEach(card => {
     card.style.transform = "perspective(500px) rotateX(0) rotateY(0)";
   });
 });
+
+window.addEventListener("load", reveal);
+
+let trailerStarted = false;
+
+function startTrailer(){
+  if(trailerStarted) return;
+  trailerStarted = true;
+
+  const lines = document.querySelectorAll(".trailer-text p");
+
+  lines.forEach((line, i)=>{
+    line.style.opacity = 0;
+    line.style.transform = "translateY(40px)";
+    line.style.transition = "0.8s cubic-bezier(.2,.8,.2,1)";
+
+    setTimeout(()=>{
+      line.style.opacity = 1;
+      line.style.transform = "translateY(0)";
+
+      if(line.classList.contains("highlight")){
+        line.style.textShadow = "0 0 25px #00ff7b, 0 0 60px rgba(0,255,120,0.6)";
+      }
+
+    }, i * 1000);
+  });
+}
+
+window.addEventListener("scroll", ()=>{
+  const section = document.getElementById("altrun");
+  if (section) { // Boa prática para evitar erros caso a seção não exista na página atual
+    const rect = section.getBoundingClientRect();
+    if(rect.top < window.innerHeight / 1.3){
+      startTrailer();
+    }
+  }
+});
+
+const modal = document.getElementById("modal");
+const runBtn = document.getElementById("runBtn");
+const closeModal = document.getElementById("closeModal");
+const sendBtn = document.getElementById("sendBtn");
+
+/* Se quiser reativar o modal depois, as funções estão aqui comentadas
+runBtn.addEventListener("click", ()=>{
+  modal.style.display = "flex";
+});
+
+closeModal.addEventListener("click", ()=>{
+  modal.style.display = "none";
+});
+
+modal.addEventListener("click", e=>{
+  if(e.target === modal){
+    modal.style.display = "none";
+  }
+});*/
+
+if (sendBtn && modal) { // Proteção contra erros de elemento nulo
+  sendBtn.addEventListener("click", () => {
+    const input = modal.querySelector("input");
+
+    if(input && input.value.trim() !== ""){
+      modal.style.opacity = "0";
+      setTimeout(()=>{
+        modal.style.display = "none";
+        modal.style.opacity = "1";
+        input.value = "";
+      }, 200);
+    }
+  });
+}
